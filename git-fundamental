@@ -1,29 +1,47 @@
-Welcome git learning
+git clone:
+This command clones or copies a repository from a remote source (like GitHub) to your local machine.
 
-git clone :
+git status:
+This command helps you understand the current state of your working directory and staging area.
 
-    This command is used to clone or copy a repository from a remote source (like GitHub) to your local machine. 
+git add [file name]:
+This command adds changes in a specific file to the staging area.
 
-git status :
+git commit -m "message":
+This command saves your changes to the local repository. The -m flag allows you to include a commit message describing the changes you made.
 
-    It helps you understand the current state of your working directory and staging area.
+git push origin main:
+This command pushes your local changes to the remote repository.
 
-git add file name :
+git pull:
+This command fetches and merges changes from a remote repository into your current branch.
 
-     This command is used to add changes in a specific file to the staging area.
+cd ..:
+This is a shell command that changes the current working directory to its parent directory. It is used to navigate up one level in the directory structure.
 
-git commit -m "messages" :
+git init:
+This command creates a new .git directory in your local repository, initializing it as a Git repository.
 
-    This command is used to save your changes to the local repository. The -m flag allows you to include a commit message describing the changes you made. 
+git remote add origin [git_repo_link]:
+This command adds a remote repository link (referred to as "origin") to your local repository.
 
-git push origin main :
+git branch:
+This command lists all branches in the current repository.
 
-    This command is used to push your local changes to the remote repository.
+git branch -M main:
+This command renames the current branch to main.
 
-git pull :
+git branch -a:
+This command lists all branches, including remote-tracking branches, in the current repository.
 
-    This command is used to fetch and merge changes from a remote repository into your current branch. I
+git checkout [new_branch_name]:
+This command switches to a different branch.
 
-cd .. :
+git diff [branch_name]:
+This command compares changes between the current branch and the specified branch.
 
-    It is a shell command to change the current working directory to its parent directory. It's used to navigate up one level in the directory structure.
+git merge [sub_branch]:
+This command merges the specified branch into the current branch.
+
+git branch [new_branch_name]:
+This command creates a new branch in the current repository.
