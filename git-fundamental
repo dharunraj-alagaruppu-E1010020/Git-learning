@@ -40,6 +40,18 @@ This command switches to a different branch.
 git diff [branch_name]:
 This command compares changes between the current branch and the specified branch.
 
+git log:
+This command used to log the all commits in the branch
+
+git reset commit_id:
+This command reeset the all changes which present before
+
+git stash:
+This command used to save the changes without insert the command history 
+
+git stash pop:
+
+
 git merge [sub_branch]:
 This command merges the specified branch into the current branch.
 
